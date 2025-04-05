@@ -1,4 +1,4 @@
-from pinnLib.PiNNResultCondition import ResultCondition
+from pinnLib.core.pinn_result_condition import ResultCondition
 import torch
 
 class BasketCallPayoff(ResultCondition):
