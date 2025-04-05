@@ -8,6 +8,7 @@ setup(
         "torch>=2.0.0",
         "numpy>=1.21",
         "scipy>=1.7",
+        "matplotlib",
     ],
     author="fkonrad97",
     description="Physics-Informed Neural Network library for solving PDEs like Black-Scholes",
