@@ -1,7 +1,7 @@
 import torch
 from torch import nn
-from pinnLib.PiNNBasePDE import BasePDE
-from pinnLib.models.BlackScholes.BasketPayoff import BasketCallPayoff
+from pinnLib.core.pinn_base_pde import BasePDE
+from pinnLib.models.black_scholes_model.option_payoff import BasketCallPayoff
 from torch.autograd.functional import jacobian
 from torch.func import jacrev, vmap
 

@@ -1,5 +1,5 @@
 # pinnLib/__init__.py
-from .PiNNTrainer import StandardPINNTrainer
-from .PiNNBasePDE import BasePDE
-from .PiNNBaseLossBuilder import StandardPINNLossBuilder
-from .PiNNetwork import StandardFeedForwardNN
+from .core.pinn_trainer import StandardPINNTrainer
+from .core.pinn_base_pde import BasePDE
+from .core.pinn_loss_builder import StandardPINNLossBuilder
+from .core.pinn_network import StandardFeedForwardNN
