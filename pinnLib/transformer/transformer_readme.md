@@ -122,10 +122,6 @@ Optional future additions:
 ---
 
 This modular Transformer engine is the backbone of a future general-purpose quant modeling framework — adaptable to option pricing, IV surface generation, calibration, and more.
-<<<<<<< HEAD
 
 ### Vision Statement
 Build a general-purpose, modular Transformer engine for quantitative modeling, that can learn from and adapt to diverse financial data (cross-sectional, temporal, synthetic, real-world), and serve as the foundation for a future QuantGPT-style system — optionally constrained with physics via PINNs.
-
-=======
->>>>>>> 63ab059a96d2942b5932c5099df9b6851269ae39

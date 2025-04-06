@@ -1,5 +1,3 @@
-# transformer/core/embeddings.py
-
 import torch
 import torch.nn as nn
 from pinnLib.transformer.core.embeddings_base import BaseEmbedding

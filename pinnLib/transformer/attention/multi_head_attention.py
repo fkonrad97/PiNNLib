@@ -2,11 +2,7 @@ import torch
 import torch.nn as nn
 import torch.nn.functional as F
 from pinnLib.transformer.core.attention_base import BaseAttention
-<<<<<<< HEAD
 from pinnLib.transformer.attention.types.scaled_dot_product_attention import ScaledDotProductAttention
-=======
-from pinnLib.transformer.attention.scaled_dot_product_attention import ScaledDotProductAttention
->>>>>>> 63ab059a96d2942b5932c5099df9b6851269ae39
 
 class MultiHeadAttention(BaseAttention):
     def __init__(self, embed_dim: int, num_heads: int, attention_cls=ScaledDotProductAttention, dropout: float = 0.1):
