@@ -3,7 +3,7 @@ from torch.utils.data import DataLoader
 from torch import nn, optim
 
 from pinnLib.transformer.data.synthetic.black_scholes_dataset import BlackScholesDataset
-from pinnLib.transformer.model.option_pricing.option_pricing_transformer_model import OptionPricingTransformerModel
+from pinnLib.transformer.model.option_models.option_pricing_transformer_model import OptionPricingTransformerModel
 
 # ---- Config ----
 device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
