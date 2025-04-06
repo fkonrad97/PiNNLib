@@ -1,3 +1,8 @@
+<<<<<<< HEAD
+=======
+# transformer/core/decoder_base.py
+
+>>>>>>> 63ab059a96d2942b5932c5099df9b6851269ae39
 import torch.nn as nn
 from abc import ABC, abstractmethod
 
